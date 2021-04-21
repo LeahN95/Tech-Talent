@@ -1,0 +1,26 @@
+moterbike = 2000
+
+while moterbike >1000:
+    moterbike = moterbike - moterbike*0.1
+    print ("the value of the moterbike is", moterbike)
+    
+    
+    
+    def calculate(year, price, dep):
+    
+    year += 1
+    price = price * dep
+    
+    return year, price
+    
+    
+    bike_price = 2000
+    bike_dep = 0.90
+    year = 1
+    
+    while value >1000:
+        year, bike_price = calculate (year, bike_price, bike_dep)
+        
+    print = ("The value of the item in ", year , "the moterbike is now valued at", bike_price)
+        
+
