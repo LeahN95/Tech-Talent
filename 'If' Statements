@@ -1,0 +1,22 @@
+#Using If statements and the random function, write a programme that tells you a joke depending on the number you choose. Use a minimum of 3 jokes.
+
+import random
+print ("hi i am the joke machine")
+name = input ("whats your name?")
+number = random.randint(1,100)
+number2 = random.randint(1,100)
+number3 = random.randint (1,100)
+print ("hi " + name + " Im thinking of a number between 1 and 100")
+guess = int(input("take a guess, ill tell you a joke"))
+print (number)
+print ("This was my number! Here is your joke...")
+
+if guess == number:
+    print ("As a scarecrow, people say I’m outstanding in my field. But hay – it’s in my jeans")
+elif guess == number2:
+    print ("I told my girlfriend she drew her eyebrows too high. She seemed surprised")
+elif 2 == number3:
+    print ("I told my friend 10 jokes to get him to laugh. no pun in 10 did")
+else:
+    print ("You know what I saw today? Everything I looked at")
+
