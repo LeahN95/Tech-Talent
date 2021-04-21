@@ -1,0 +1,34 @@
+def procedure_1 (numberA, numberB):
+    name = input("What is your name?")
+    print ("Hello " + name)
+
+    userinput_number = int(input("Give me a number"))
+    userinput_number2 = int(input("Thats great, now give more one more ..."))
+
+
+    print ("a. Add")
+    print ("b. Subtract")
+    print ("c. Multiply")
+    print ("d. Divide")
+    print ("e. Power")
+
+    a = (int(userinput_number + userinput_number2))
+    b = (int(userinput_number - userinput_number2))
+    c = (int(userinput_number * userinput_number2))
+    d = (int(userinput_number / userinput_number2))
+    e = (int(userinput_number ** userinput_number2))
+    choice= input ("pick a calculation")
+
+    if choice == "a":
+        print (a)
+    elif choice == "b":
+        print (b)
+    elif choice == "c":
+        print (c)
+    elif choice == "d":
+        print (d)
+    else:
+        print (e)
+
+        
+procedure_1 ("userinput_number","userinput_number2")
