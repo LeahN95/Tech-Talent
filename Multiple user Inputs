@@ -1,0 +1,10 @@
+name = input ("What is your name?")
+print ("Hi, "+ name + " welcome!")
+starter = input ("What do you love to begin your meal with?")
+print ("What a way to start!")
+food = input ("What do you like to eat for dinner?")
+print ("Delicious!")
+dessert = input ("And what about dessert?")
+drink = input ("Thats great! What do you like to wash it all down with?")
+
+print ("So your favourite meal is " + starter + " followed by " + food + " with a cheeky "+ dessert + " washed down with a glass of " + drink)
